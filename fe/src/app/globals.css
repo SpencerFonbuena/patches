@@ -1,0 +1,38 @@
+/* Basic CSS Reset */
+
+/* Set all margins and padding to 0 for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remove list styles for ordered and unordered lists */
+ol, ul {
+  list-style: none;
+}
+
+/* Remove default styles for links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove default styles for images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Set default font size and family */
+html {
+  font-size: 100%; /* 16px by default */
+  line-height: 1.5;
+}
+
+body {
+  font-family: Arial, sans-serif; /* Customize this as needed */
+  background-color: white;
+  color: black;
+}
